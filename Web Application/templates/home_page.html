@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		HOME
+	</title>
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='../static/home_page.css')}}">
+</head>
+<body>
+	
+	<div class="header">
+		<button class="button"><a href="/">LOGOUT</a></button>
+		<h1>ONLINE IT EDUCATION</h1>
+		<p>This is an responsive effective website</p>
+	</div>
+
+	<div class="topnav">
+		<a href="/index">HOME</a>
+		<a href="/">LOGIN</a>
+		<a href="/signup">SIGNUP</a>
+		<a href="/users">USERS</a>
+		<a href="/student">STUDENT</a>
+		<a href="/AllStudent">ALL STUDENT</a> 
+	</div>
+
+	<div align="center" class="course">
+
+
+			<a href="https://www.w3schools.com/python/default.asp"><img src="{{url_for('static',filename='../static/python.jpg')}}" width="250px"></a>
+
+			<a href="https://www.w3schools.com/sql/default.asp"><img src="{{url_for('static',filename='../static/sql.jpg')}}" width="210px"></a>
+
+			<a href="https://www.w3schools.com/html/default.asp"><img src="{{url_for('static',filename='../static/html.jpg')}}" width="250px" height="140px"></a>
+
+			<a href="https://www.w3schools.com/excel/index.php"><img src="{{url_for('static',filename='../static/excel.jpg')}}" width="280px"></a><br><br>
+
+			<a href="https://www.w3schools.com/datascience/default.asp"><img src="{{url_for('static',filename='../static/datascience.png')}}" width="260px" height="140px" ></a>
+
+			<a href="https://www.w3schools.com/mysql/default.asp"><img src="{{url_for('static',filename='../static/mysql.jpg')}}" width="205px" height="140px"></a>
+
+			<a href="https://www.w3schools.com/java/default.asp"><img src="{{url_for('static',filename='../static/java.jpg')}}" width="215px" height="140px"></a>
+
+			<a href="https://www.w3schools.com/js/default.asp"><img src="{{url_for('static',filename='../static/javascript.jpg')}}" width="270px" height="140px"></a>	
+		
+	</div>
+
+	
+</body>
+</html>

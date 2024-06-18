@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SIGNUP</title>
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='../static/Signup_page.css')}}">
+</head>
+<body>
+	<div align="center" class="imag">
+		<fieldset>
+
+			<form action="/Insert_data" method="POST">
+				<h1>SIGN UP PAGE</h1>
+				<br><br>
+
+				<label for="id">ID :</label>
+				<input type="id" id="id" name="ids" required>
+				<br><br>
+
+
+				<label for="name">NAME :</label>
+				<input type="text" id="name" name="name" required>
+				<br><br> 
+
+				<label for="uname">USERNAME :</label>
+				<input type="text" id="uname" name="uname" required>
+				<br><br>
+
+				<label for="pin">PASSWORD :</label>
+				<input type="Password" id="pin" name="pin" required>
+				<br><br>
+
+				<label for="mail">GMAIL :</label>
+				<input type="text" id="mail" name="mail" required>
+				<br><br>
+
+				<input type="reset" value="Reset">
+				<input type="submit" name="SUBMIT">
+
+				<br><br>
+				<h3>Already Have An Account?</h3>
+				<a href="/">Login Page</a>						
+
+			</form>
+		</fieldset>
+	</div>
+
+</body>
+</html>

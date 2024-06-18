@@ -1,0 +1,17 @@
+body{
+	padding-bottom:35px;
+	padding-right: 20%;
+	background-image: url('sign.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+
+.imag{
+	color: white;
+	margin-left: 20px;
+	margin-right: 60%;
+	padding-top: 20px;
+
+} 

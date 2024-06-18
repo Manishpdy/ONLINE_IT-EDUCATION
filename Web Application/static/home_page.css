@@ -1,0 +1,59 @@
+body{
+	margin: 0px;
+}
+
+
+.header{
+	background-color: #B6BBC4;
+	padding: 20px;
+	text-align: center;
+}
+
+.topnav{
+	overflow: hidden;
+	background: #31304D;
+}
+
+.topnav a{
+	color: #f2f2f2;
+	padding: 15px 15px;
+	text-decoration: none; 
+	float: left;
+}
+
+.topnav a:hover{
+	background-color: #F0ECE5;
+	color: black;
+}
+
+
+.button {
+	margin-left: 90%;
+	border-radius: 2px;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+}
+
+
+.button a{
+	text-decoration: none;
+	overflow: hidden;
+	color: black;
+	padding: 15px 15px;
+	border: 5px;
+}
+
+.course{
+	padding-top: 20px;
+	padding-bottom: 10%;
+	background-color: #161A30;
+}
+
+
+
+@media screen and (max-width:600px){
+	.column{
+		width: 100%;
+	}
+}

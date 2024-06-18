@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login Page</title>
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='../static/Login_page.css')}}">
+</head>
+<body>
+	<div   align="center"  class="border">
+		<fieldset >
+			<h1>LOGIN PAGE</h1>
+            
+			<form action="/validate" method="POST">
+				<label for="uname"> UserName/Gmail :</label>
+				<input type="text" id="uname" name="uname" required>
+				<br><br>
+
+				<label for="pin"> Password:</label>
+				<input type="Password" id="pin" name="pin" required>
+				<br><br>
+
+				<input type="reset" value="Reset"> 
+				<input type="submit" name="LOGIN">
+				<br><br>
+
+				<a href="/signup" >Create New Account?</a>
+				
+			</form>
+			
+		</fieldset>
+	</div>
+
+</body>
+</html>

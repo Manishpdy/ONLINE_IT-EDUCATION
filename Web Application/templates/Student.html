@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Student Details</title>
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='../static/Student.css')}}">
+	
+</head>
+<body>
+	<div align="center" >
+		<fieldset class="stud">
+            
+			<form action="/Student_details" method="POST">
+				<h1>STUDENT</h1>
+				<br><br>
+
+				<label for="id">ID :</label> 
+				<input type="id" id="id" name="ids" required>
+				<br><br>
+
+
+				<label for="fname">FIRST NAME :</label>
+				<input type="text" id="fname" name="fname" required>
+				<br><br>
+
+				<label for="lname">LAST NAME :</label>
+				<input type="text" id="lname" name="lname" required>
+				<br><br>
+
+				<label for="mail">GMAIL :</label>
+				<input type="text" id="mail" name="mail" required>
+				<br><br>
+
+				<label for="course">COURSES :</label>
+				<input type="text" id="course" name="Course" required>
+				<br><br>
+
+				<label for="payment">PAYMENT :</label>
+				<input type="text" id="payment" name="payment" required>
+				<br><br>
+
+				<input type="reset" value="Reset">
+				<input type="submit" name="SUBMIT"><br><br>
+				<button class="button"><a href="/index">BACK</a></button>
+					
+
+			</form>
+		</fieldset>
+	</div>
+
+</body>
+</html>
